@@ -1,0 +1,222 @@
+@font-face { font-family: Oswald; src: url('Oswald.otf'); } 
+
+.carlo_photo {
+    height: auto; 
+    width: 100%; 
+    max-width: 550px; 
+    max-height: 550px;
+    padding-left: 100px;
+    padding-top: 0px;
+
+}
+
+.monster_photo {
+    height: auto; 
+    /*width: 100%; */
+    /*max-width: 500px; */
+    max-height: 75px;
+    padding-left: 100px;
+    padding-top: 0px;
+    text-align: left;
+
+}
+
+.animal_photo {
+    /*height: auto; */
+    /*width: 100%; */
+    /*max-width: 500px; */
+    max-height: 460px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.about_effect1 {
+	/*color: #DE342A;*/
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.about_effect2 {
+	/*color: #1A548A;*/
+	font-weight: bold;
+}
+
+.box {
+		background: #ffffff;
+		/*border-bottom: solid 1px #ccc;*/
+        padding: 5px;
+	}
+
+.box .image.featured {
+	position: relative;
+	height: auto;
+}
+
+.box .p {
+    /*padding-left: 70px;*/
+    /*padding-top: 15px;*/
+    font-size: 18px;
+    /*letter-spacing: 0.2px;*/
+    margin: 0 0 10px;
+    font-family: Oswald;
+}
+
+.box .h2 {
+    /*padding-left: 70px;*/
+    /*padding-top: 15px;*/
+    /*letter-spacing: 0.2px;*/
+    margin: 0 0 10px;
+    font-size: 30px;
+    font-family: Oswald;
+    font-weight: bold;
+}
+
+/*p .under_heading {
+	font-weight: italic;
+}*/
+
+/*h1 {
+    padding-left: 70px;
+    padding-top: 0px;
+    /*padding-bottom: 20px;*/
+    /*margin: .67em 0;
+    /*font-size: 4em;*/
+    /*font-family: Oswald, sans-serif;
+    font-weight: bold;
+    /*color: F54F29;*/
+/*}*/
+
+h1,
+.h1 {
+    padding-left: 0px;
+    padding-top: 0px;
+    /*padding-bottom: 20px;*/
+    margin: .67em 0;
+    font-size: 45px;
+    font-family: Oswald;
+    font-weight: bold;
+    /*color: F54F29;*/
+}
+h2,
+.h2 {
+  font-size: 30px;
+  font-family: Oswald;
+  font-weight: normal;
+}
+.h2_title {
+  font-size: 30px;
+  font-family: Oswald;
+  font-weight: normal;
+}
+h3, 
+.h3 {
+  font-size: 15px;
+  font-family: Oswald;
+  font-weight: bold;
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+}
+
+p {
+    padding-left: 0px;
+    /*padding-top: 15px;*/
+    font-size: 18px;
+    /*letter-spacing: 0.2px;*/
+    margin: 0 0 10px;
+    font-family: Oswald;
+    font-weight: normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.contact {
+    padding-left: 0px;
+}
+
+.icons {
+    padding-left: 16px;
+}
+
+.dotted{
+    border-bottom: 3px dotted gray;
+    margin-bottom:2px;
+}
+
+.container-fluid {
+    padding-top: 50px;
+  padding-right: 250px;
+  padding-left: 250px;
+  padding-bottom: 70px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.h1_projects {
+    padding-left: 0px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    /*margin: .67em 0;*/
+    font-size: 90px;
+    font-family: Oswald;
+    font-weight: normal;
+    color: #323232;
+}
+
+.h2_projects {
+    padding-left: 0px;
+    /*padding-top: -30px;*/
+    /*padding-bottom: 20px;*/
+    /*margin: .67em 0;*/
+    font-size: 40px;
+    font-family: Oswald;
+    font-weight: normal;
+    color: #4B4B4B;
+}
+
+.p_home {
+    padding-left: 0px;
+    /*padding-top: 15px;*/
+    font-size: 16px;
+    color: #7F7F7F;
+    /*letter-spacing: 0.2px;*/
+    margin: 0 0 10px;
+    font-family: Oswald;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.p_projects {
+    padding-left: 0px;
+    /*padding-top: 15px;*/
+    font-size: 20px;
+    color: #4B4B4B;
+    /*letter-spacing: 0.2px;*/
+    margin: 0 0 10px;
+    font-family: Oswald;
+    line-height: 150%;
+    font-weight: normal;
+    /*text-decoration: underline;*/
+}
+
+table {
+    padding-left: 70px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}

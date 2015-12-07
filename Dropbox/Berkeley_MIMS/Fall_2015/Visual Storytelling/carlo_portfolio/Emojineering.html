@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/chocolat.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.chocolat.js"></script>
+    <link href="css/customized.css" rel="stylesheet">
+    
+    <title>Chocolat — demo</title>
+    <script>
+        $(function(){
+            $('#example0').Chocolat({
+                  imageSize: 'contain'
+            });
+
+            $('#example1').Chocolat({
+                loop           : true,
+                imageSize     : 'cover',
+                overlayOpacity : 0.9
+            });
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <a href="index.html" class = "p_home img_responsive"  > home </a>
+        <p class="h1_projects" style="color: #1E4F53;"> Emojineering: </p>
+        <p class="h2_projects"> Is it possible to predict emoji use? </p>
+        <p class = "p_projects" style="color: #7F7F7F;"> [Natural Language Processing] [Python]  [Machine Learning] [Scikit-Learn] [Web-Scraping] </p>
+        </br></br>
+
+
+        <a class="image featured"><img src="img/portfolio/emoji_cropped.png" class="img-responsive" alt="" style="height:350px;border:0, auto:width;"></a>
+
+        <div id="example0">
+            <a class="chocolat-image" href="img/portfolio/emoji_cropped.png" title="foo">
+                <img src="img/portfolio/emoji_cropped.png" style="width:50px; height:auto" alt="">
+            </a>
+        </div>
+
+        </br></br></br></br>
+
+        <p class = "p_projects">
+            The goal of the project will be to create an emoji tool that will create useful semantic categories of emojis and suggest relevant emojis for a given document. 
+
+            It is well documented that emojis and emoticons <i> can </i> express meaning in our texting and social media posting in ways that simple words cannot. We will analyze why texts contain emojis and why others do not. We will answer questions like: Is there substantive semantic value in these emojis? Can we also extract sentiment? The final step of the process will be to classify the category of emoji, where an emoji is appropriate. 
+ </p>
+
+        </br></br>
+        <p class = "p_projects"> Group Members: Daniel Chen, Hadrien Renold </p>
+    </br></br>
+        <a href="https://github.com/hatsy/Emojineering" target="_blank" class = "p_home" style="color:#1E4F53;" > Follow the Project on GitHub </a>
+    </br></br>
+    <a href="index.html" class = "p_home img_responsive"  > home </a>    
+    </br></br>
+    </div>
+    
+</body>
+</html>

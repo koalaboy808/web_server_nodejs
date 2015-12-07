@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/chocolat.css" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.chocolat.js"></script>
+        <link href="css/customized.css" rel="stylesheet">
+        
+        <title>Chocolat — demo</title>
+        <script>
+            $(function(){
+                $('#example0').Chocolat({
+                      imageSize: 'contain'
+                });
+
+                $('#example1').Chocolat({
+                    loop           : true,
+                    imageSize     : 'cover',
+                    overlayOpacity : 0.9
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+      <div class="container-fluid">
+        <a href="index.html" class = "p_home img_responsive"  > home </a>
+        <p class="h1_projects" style="color: #1E4F53;"> Find'NRide: </p>
+        <p class="h2_projects"> Whatever your hunger, we provide the information to get you there </p>
+        <p class = "p_projects" style="color: #7F7F7F;"> [Web Development] [Django]  [Postgres] [Heroku] [Javascript] </p>
+        </br></br>
+
+
+
+        <a class="image featured"><img src="img/portfolio/findnride_homepage.png" class="img-responsive" alt="" style="height:350px;border:0, auto:width;"></a>
+
+        <div id="example0">
+            <a class="chocolat-image" href="img/portfolio/findnride_homepage.png" title="foo">
+                <img src="img/portfolio/findnride_homepage.png" style="width:50px; height:auto" alt="">
+            </a>
+            <a class="chocolat-image" href="img/portfolio/findnride_about.png" title="bar">
+                <img src="img/portfolio/findnride_about.png" style="width:50px; height:auto" alt="">
+            </a>
+            <a class="chocolat-image" href="img/portfolio/webarch_mockup.png" title="bar">
+                <img src="img/portfolio/webarch_mockup.png" style="width:50px; height:auto" alt="">
+            </a>
+        </div>
+
+        </br></br></br></br>
+
+        <p class = "p_projects">
+            Group project with other graduate students from the School of Information to develop a web application that queries the Yelp API for a food item. With just a single keyword, we implement a combination of Google and Uber APIs to provide the the user a list of options nearby. Bus, foot, Uber, cycle, or car--the choice is up to you! We provide the data-rich platform. You get your meal.</p>
+            </br></br>
+        <p class = "p_projects">    
+            We built this using Django, Postgres, and Heroku. I was actively involved in the 
+            entire full stack development process. I specficially tackled the problem of handling the Google and Uber APIs.
+        </p>
+
+        </br></br>
+        <p class = "p_projects"> Group Members: Brian Goodness, Keshav Potluri, Richa Prajapati </p>
+        
+</br></br>
+        <a href="https://github.com/briangoodness/FATnLAZY" target="_blank" class = "p_home" style="color:#1E4F53;" > Follow the Project on GitHub </a>
+    </br></br>
+    <a href="index.html" class = "p_home img_responsive"  > home </a>    
+    </br></br>
+    </div>
+
+        
+    </body>
+
+</html>
