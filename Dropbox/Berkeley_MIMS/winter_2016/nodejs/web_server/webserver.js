@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 // NEED TO COMMENT OUT THIS APP.GET TO ALLOW THE INDEX FILE IN PUBLIC TO BE USED AS DEFAULT
 // app.get('/', function(req, res) {
